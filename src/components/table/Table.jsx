@@ -24,7 +24,7 @@ function Table(props) {
                         <tr>
                             <td>{props.data.Title}</td>
                             <td>{props.data.Plot}</td>
-                            <td>{props.data.Rated}</td>
+                            <td>{props.data.imdbRating}</td>
                             <td>{props.data.Runtime}</td>
                             <td>{props.data.Director}</td>
                         </tr>
